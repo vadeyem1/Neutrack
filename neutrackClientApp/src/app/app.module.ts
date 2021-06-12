@@ -12,10 +12,30 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { NutritionistComponent } from './nutritionist/nutritionist.component';
+import { DashbordComponent } from './nutritionist/dashbord/dashbord.component';
+import { AccountComponent } from './nutritionist/account/account.component';
+import { PatientsComponent } from './nutritionist/patients/patients.component';
+import { CalculatorComponent } from './nutritionist/calculator/calculator.component';
+import { HomeComponent } from './home/home.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { HeaderComponent } from './header/header.component';
+import { FormsComponent } from './forms/forms.component';
+import { LoginComponent } from './forms/login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NutritionistComponent,
+    DashbordComponent,
+    AccountComponent,
+    PatientsComponent,
+    CalculatorComponent,
+    HomeComponent,
+    NavigationComponent,
+    HeaderComponent,
+    FormsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
