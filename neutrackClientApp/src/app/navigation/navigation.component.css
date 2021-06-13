@@ -1,7 +1,7 @@
-mat-toolbar {
+/* mat-toolbar {
     background: #0d352c;
     color: white;
-}
+} */
 
 mat-sidenav {
     margin: 16px;
@@ -27,6 +27,7 @@ mat-sidenav {
     /* font-size: 2rem; */
     /* color: lightgray; */
     color: Black;
+    background-color: aquamarine;
 }
 .content h1 {
     color:black;
@@ -35,6 +36,7 @@ mat-sidenav {
 
 mat-sidenav-container {
     height: calc(100vh - 65px);
+    background-color: antiquewhite;
 }
 
 .menu-button {
@@ -56,11 +58,12 @@ mat-sidenav-container {
     align-items: center;
     justify-content: flex-start;
     font-size: 1rem;
-
-    mat-icon {
-        margin-right: 8px;
-    }
 }
+
+.menu-button  mat-icon {
+        margin-right: 8px;
+}
+
 
 .avatar {
     margin-top: 16px;
